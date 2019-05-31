@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source E:\Project\2019\phuonghai\HY-AI7688H-RevA\Projects\HY-AI7688H.sch)
-    (date "07/03/2019 1:45:27 CH")
+    (source E:\Project\2019\phuonghai\openwrt-ai7688-develope-kit-hw\Projects\HY-AI7688H.sch)
+    (date "14/03/2019 10:39:02 SA")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -525,7 +525,7 @@
       (tstamp 5827E02C))
     (comp (ref U1)
       (value CP2102)
-      (footprint nhantt-kicad-lib:QFN-32-1EP_5x5mm_Pitch0.5mm)
+      (footprint Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm)
       (libsource (lib nhantt-kicad-lib) (part CP2102) (description ""))
       (sheetpath (names /AI7688H/) (tstamps /57EDEE83/))
       (tstamp 5C8B35F9))
@@ -1130,11 +1130,11 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical HY-AI7688H-rescue)
-      (uri E:\Project\2019\phuonghai\HY-AI7688H-RevA\Projects/HY-AI7688H-rescue.lib))
+      (uri E:\Project\2019\phuonghai\openwrt-ai7688-develope-kit-hw\Projects/HY-AI7688H-rescue.lib))
     (library (logical Regulator_Switching)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Regulator_Switching.lib"))
     (library (logical nhantt-kicad-lib)
-      (uri E:\Project\Kicad-Lib\nhantt-kicad-lib\nhantt-kicad-lib.lib)))
+      (uri E:/Project/Kicad-Lib/nhantt-kicad-lib/nhantt-kicad-lib.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P1) (pin 5))
